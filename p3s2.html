@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="float_blocks.css">
+    <link rel="stylesheet" href="float_blocks_small.css">
+    <link rel="stylesheet" href="end.css">
+</head>
+<body >
+
+    <div class="sidebar_b">
+        <ul>
+            
+            <li><a href="C.html"><i class="title"></i>  BIO</a></li>
+            <li><a href="page1 .html"><i class="title"></i>  HARDWARE</a></li>
+            <li><a href="page2.html"><i class="title"></i>  SOFTWARE</a></li>
+            <li><a href="page3.html"><i class="title"></i>  FIRMWARE</a></li>
+        </ul>
+    </div>
+<div class="bgd2">
+<img class="imga"src="https://cdn.discordapp.com/attachments/857047152684564523/996440613169930360/IMG_20220701_155843.jpg" width="650px" height="650px" >
+<div class="float_A">
+    <ul>
+        <p >STEP:1.</p>
+        <p >open the case of the mirouter 4AG</p>
+        <p >DUMP firmware with ch341a</p>
+    
+    </ul>
+</div>
+
+<h1 class="mag3">
+    
+
+    </h1>
+<p>
+
+    
+    </p>
+
+<img class="imgb"src="https://cdn.discordapp.com/attachments/857047152684564523/997126948453089331/unknown.png" width="650px" height="650px"  >
+<div class="float_B">
+    <ul>
+        <p >STEP:2.</p>
+        <p >form the OPENWRT site we can know</p>
+        <p >that OS partition seems to be saved </p>
+        <p >between 0x180000h~0xE80000h</p>
+    
+    </ul>
+</div>
+<h1 class="mag3">
+    
+
+</h1>
+<p>
+
+
+</p>
+<img class="imga"src="imgs/Screenshot 2022-07-14 212943 - Copy.png" width="650px" height="650px">
+<div class="float_A">
+    <ul>
+        <p >STEP:3.</p>
+        <p >now we try to replace OS partition  </p>
+        <p >form xiaomi original to OPENWRT </p>
+        <p ></p>
+        <p >the way to do it is to sele select block  </p>
+        <p >between 0x180000h~0xE80000h  </p>
+        <p >and fil 0xFF to whole partition  </p>
+        <p >then paste write whole openwrt update </p>
+        <p >image to the partition</p>
+
+
+    </ul>
+</div>
+<h1 class="mag3">
+    
+
+</h1>
+<img class="imgb"src="imgs/Screenshot 2022-07-14 214034.png" width="650px" height="650px">
+<div class="float_B">
+    <ul>
+        <p >STEP:4.</p>
+        <p >flash the saved rom back in to to </p>
+        <p >xiaomi 4GA with ch341a and see if it works </p>
+        <p >in my case it works but the frist start</p>
+        <p >up really take a while</p>
+    
+    </ul>
+</div>
+<div class="bgd3">
+    
+</div>
+<script>a.js</script>
+</body>
+</html>

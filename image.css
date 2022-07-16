@@ -1,0 +1,35 @@
+.imga{
+    margin-top: 35px;
+    margin-left: 250px;
+    border-radius: 15px;
+    width: 850px;
+    height: 550px;
+    object-fit: cover;
+}
+.imgb{
+    margin-top: 35px;
+    margin-left: 750px;
+    border-radius: 15px;
+    width: 850px;
+    height: 550px;
+    object-fit: cover;
+}
+.imgc{
+  
+    margin-top: -50px;
+    margin-left: 15%;
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+}
+.imgd{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 5%;
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+
+}
