@@ -58,7 +58,7 @@
 
     .bgd2{
 
-        background-size:     cover;
+        height: auto;
         background-color:
             #1a1224 
         ;
@@ -66,12 +66,17 @@
     }
     
     .bgd3{
-
-        height: 25vw;
+        position: absolute;
+        top: 0; 
+        left: 0; 
+          
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        min-height: 100%;
         background-color:
             #1a1224 
         ;
-        box-sizing: border-box;
+
     }
     .bgd4{
 
